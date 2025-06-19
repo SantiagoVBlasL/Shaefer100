@@ -114,14 +114,6 @@ qc_outputs_schaefer100_v4.0/
 
 ---
 
-## 📚 Citar este trabajo
-
-Si usas este pipeline, cita:
-
-> *Apellido, D.* (2025). **QC y detección de outliers en rs‑fMRI con Schaefer‑100**. Repositorio GitHub. [https://github.com/usuario/repositorio](https://github.com/usuario/repositorio)
-
----
-
 ## 📝 Licencia
 
 Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
