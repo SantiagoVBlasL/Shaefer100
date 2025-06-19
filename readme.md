@@ -19,7 +19,7 @@ Esta es la **Fase 1** del pipeline de mi tesis doctoral.  Ejecuta controles de 
 | - | --------------------------- | --------------------------------------- | ------------------------------------------- | --------------- | --------------------------------- |
 | 1 | **Carga de datos**          | `.mat` con 100 ROIs + CSV de metadatos  | —                                           |                 |                                   |
 | 2 | **QC inicial**              | TPs, NaNs, canales nulos                | `TP ≥ 140`, `NaNs ≤ 5 %`, `Null ≤ 1 %`      |                 |                                   |
-| 3 | **Outliers univariantes**   | `Z > 3.5` por ROI | descartar sujeto si **% > 1.2 %** |
+| 3 | **Outliers univariantes**   | —                                      | `Z> 3.5` por ROI, descartar sujeto si **% > 1.2 %** |
 | 4 | **Outliers multivariantes** | **MCD** (α = 0.001) → dist. Mahalanobis | descartar si **% > 28 %**                   |                 |                                   |
 | 5 | **Scrubbing**               | PCA (n=10) + leverage MAD×5             | TPs eliminados individualmente              |                 |                                   |
 | 6 | **Bandera de descarte**     | combina criterios anteriores            | `ToDiscard_Overall`                         |                 |                                   |
